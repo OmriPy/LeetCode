@@ -24,5 +24,3 @@ def romanToInt(s: str) -> int:
         if values.get(s[-2]) >= values.get(s[-1]):
             result += values.get(s[-1])
         return result
-
-print(romanToInt('XI'))
